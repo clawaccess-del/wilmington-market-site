@@ -2,7 +2,7 @@ const TRACKING_QUERY_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_te
 const ATTRIBUTION_STORAGE_KEY = 'oc_attribution';
 
 const toggle = document.querySelector('.nav-toggle');
-const nav = document.querySelector('.nav');
+const nav = document.querySelector('.site-nav');
 const leadForm = document.querySelector('#lead-form');
 const formNote = document.querySelector('#form-note');
 
