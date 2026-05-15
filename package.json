@@ -1,0 +1,8 @@
+{
+  "name": "wilmington-market-site",
+  "private": true,
+  "scripts": {
+    "vercel-build": "node context/scripts/vercel_build.mjs",
+    "build": "node context/scripts/vercel_build.mjs"
+  }
+}
