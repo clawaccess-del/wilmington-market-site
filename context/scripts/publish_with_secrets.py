@@ -37,7 +37,7 @@ def gh(method, path, body=None):
 
 status, user = gh('GET', '/user')
 owner = user['login']
-status, created = gh('POST', '/user/repos', {'name': REPO, 'private': False, 'auto_init': False, 'description': 'Cape Fear Growth Wilmington AI-focused local growth site'})
+status, created = gh('POST', '/user/repos', {'name': REPO, 'private': False, 'auto_init': False, 'description': 'Port City AI Growth Wilmington AI-focused local growth site'})
 remote = f'https://x-access-token:{gh_token}@github.com/{owner}/{REPO}.git'
 subprocess.run(['git','remote','remove','origin'], cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 subprocess.run(['git','remote','add','origin',remote], cwd=ROOT, check=True)

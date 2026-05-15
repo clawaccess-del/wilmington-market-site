@@ -1,6 +1,6 @@
 # Handoff
 
-Cape Fear Growth Wilmington market-site build.
+Port City AI Growth Wilmington market-site build.
 
 Built pages:
 - Homepage
@@ -11,6 +11,6 @@ Built pages:
 Rules:
 - Standalone public entity
 - No sibling market-site cross-links
-- Wilmington-specific Cape Fear/coastal-professional visual system
+- Wilmington-specific Port City/coastal-professional visual system
 - AI search readiness stays central to positioning
 - Temporary route: (803) 602-4458 until a Wilmington-specific line is assigned
